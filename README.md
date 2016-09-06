@@ -23,7 +23,7 @@ CSS (two files)
                     Familarized with CSS + practice different selector types
 7. CSS Scavenger Hunt Excercise
                     Provided with a Css task list, familarized w different CSS selectors, impoortance of specificty and inheritence
-8. d
-8. d
+8. UNderstanding Css: Blank TTT Board
+                    Used CSS to create a blank Tic Tac Toe Board; useed nested nth-of-type
 9. d
 10. d
