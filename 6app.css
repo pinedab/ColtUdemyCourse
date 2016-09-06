@@ -1,0 +1,16 @@
+* {
+	background: lightslategray;
+}
+
+l{
+	border: 2px solid red;
+}
+
+#special{
+	background: purple;
+	color: forestgreen;
+	}
+
+.done {
+	text-decoration: line-through;
+}
