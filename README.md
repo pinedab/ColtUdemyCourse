@@ -1,4 +1,4 @@
-# ColtUdemyCourse
+# Colt Steele's Web Development Bootcamp Udemy Course
 All the quizzes, exercises and projects from Colt Steele's Udemy Web Developer Bootcamp course 
 
 I started this course in September 20116/
@@ -29,7 +29,8 @@ BS/HTML + CSS + JS
                     Used CSS to create a blank Tic Tac Toe Board; useed nested nth-of-type
 9. Photography Portfolio Code Along ===
                     Only HTML + CSSl portfolio made from scrath; a code along assignment
-10. d
+10. Recreate Minimalist Blog ===
+                   Intermediate HTML + CSS, on my own recreation w minor tweaks to personlize
 11. g
 12. g
 13. g
