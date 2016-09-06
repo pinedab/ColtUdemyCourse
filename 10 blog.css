@@ -1,0 +1,60 @@
+body {
+	border: 20px solid #bdc3c7;
+	margin: 2% 20%;
+	/*or i could use
+	max-width: 700px;
+	width:80%;
+	padding: 20px
+	margin: 20px auto;
+	*/
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
+
+}
+div {
+	padding: 0.5em 0.8em 1em 0.8em;
+}
+.date{ 
+	color: #3498db;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: 700;
+	letter-spacing:0.2rem;
+}
+
+h2{ 
+	color: #2c3e50;
+	font-size: 2.0rem;
+	line-height: 0.8em;
+}
+
+small{
+	font-size: 0.38em;
+	float: right;
+}
+
+p {
+	font-size: 0.8em;
+	letter-spacing: 0.01em;
+
+}
+
+
+.block {
+	border-left: 4px solid #bdc3c7;
+	padding-left: 1.5%;
+
+}
+
+
+
+/*hr style?*/
+hr {
+	padding-top: 0.5px;
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 15px 0.5px black;
+}
+hr:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
