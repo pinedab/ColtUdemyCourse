@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+</head>
+<body>
+<!-- Understanding Forms -->
+	<h1>Log In</h1>
+	<!-- action - where the form sends  data to -->
+	<!--- if not specified, default is send to the same location i.e. refreshes -->
+	<!-- method - what HTPP request(get/post) -->
+	<!-- if not specified, default is GET -->
+	<form >
+	<!-- 2 ways to connect label and input -->
+	<!-- Nested: label and input nested = connected -->
+		<label>Username: <input name="username" type="text" placeholder="Username" required></label>
+	<!-- Match: for attributw in the label and the id in the input MUST be identical = cconnected -->
+		<label for="password">Password: </label>
+		<input name="password"  id="password" type="password" placeholder="Password">
+	<input type="submit" name="" id="">
+	<!-- Present validation by adding required -->
+		<br> <br>
+	<!-- typedata based validation example-->
+	<label for="email">Email: <input type="email" name="" id="email"></label>
+
+<!-- Radio buttons - needs name -->
+	<p>Do you prefer dogs or cats?</p>
+	<label><input name="PetChoice" type="radio" value="DOGS">Dogs</label>
+	<label><input name="PetChoice" type="radio" value="CATS">Cats</label>
+	<label><input name="PetChoice" type="radio" value="BOTH">Both</label>
+	<label><input name="PetChoice" type="radio" value="NONE">None</label>
+
+<!-- select tag: drop down select menu- needs name-->
+	<p>What's your favorite color?</p>
+	<select name="color" id="favcolor">
+		<option value="">Red</option>
+		<option value="">Orange</option>
+		<option value="">Yellow</option>
+	</select>
+
+<!-- Text -->
+	<p>Share your favorite quote!</p>
+	<textarea name="" id="" cols="50" rows="15" placeholder="i believe i can fly!"></textarea>
+
+	</form>
+
+</body>
+</html>
