@@ -5,7 +5,7 @@ I started this course in September 20116/
 Up until this point I have familarized myself with HTML, CSS, Javascript, jquery, animate.css, and Bootstrap.
 
 Table of Contents:
-HTML
+HTML (one file)
 
 1. Basic HTML tag use
                       headings, lists,emphasis,strong tags
@@ -17,11 +17,12 @@ HTML
                       thead,tbody,th,tr,td,img,& a tags
 5.Registration Form
                     all + adds radio, select, textarea,checkbox types and validation(aka input constraints)
-CSS
+CSS (two files)
 
 6. Selectors Basic Todo List + CSS 
                     Familarized with CSS + practice different selector types
-7. 
+7. CSS Scavenger Hunt Excercise
+                    Provided with a Css task list, familarized w different CSS selectors, impoortance of specificty and inheritence
 8. d
 8. d
 9. d
