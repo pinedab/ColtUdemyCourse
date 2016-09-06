@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration Basic Form</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+	<!-- name -->
+		<label for="firstname">First Name:</label>
+		<input name="firstname" type="text" id="firstname" placeholder="Jane" required>
+		<label for="lastname">Last Name:</label>
+		<input type="text" name="lastname" id="lastname" placeholder="Doe" required>
+<br> <!-- gender -->
+		<label for="gender">Please choose one: 
+		<!-- label for=== input id -->
+		<label for="male">Male</label>
+		<input name="gender" id="male" type="radio" value="male">
+
+		<label for="female">Female</label>
+		<input name="gender" id="female" type="radio" value="female">
+
+		<label for="other">Other</label>
+		<input name="gender" id="other" type="radio" value="other">
+		</label>
+<br> <!-- log in email and pw-->
+		<!-- name is completely back end -->
+		<label for="email">Email: <input name="email" type="email" placeholder="email address" required></label>
+		<label for="pw">Password: <input name="pw" type="password" placeholder="only 6 to 10 characters" pattern=".{6,10}" required title="Please use 6 to 10 characters"></label>
+
+<br><!-- DOB -->
+	<label for="dob">Date of Birth: 
+		<!-- Month -->
+			<select name="month" id="">
+				<option value="">Month</option>
+				<option value="">August</option>
+				<option value="">July</option>
+				<option value="">June</option>
+			</select>
+		<!-- Day -->
+			<select name="day" id="">
+				<option value="">Day</option>
+				<option value="">19</option>
+				<option value="">20</option>
+				<option value="">21</option>
+				<option value="">22</option>
+				<option value="">23</option>
+				<option value="">24</option>
+
+			</select>
+		<!-- Year -->
+			<select name="year" id="">
+				<option value="">Year</option>
+				<option value="">1995</option>
+				<option value="">1996</option>
+				<option value="">1997</option>
+			</select>
+	</label>
+<br> <!-- Terms&Con -->
+	<label for="termsncon"><input name="termsncon" type="checkbox" required> I agree to the <a href="#">Terms &amp Conditions</a>.</label>
+<br> <!-- Submit -->
+	<input type="submit">
+	</form>
+</body>
+</html>
