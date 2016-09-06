@@ -25,5 +25,12 @@ CSS (two files)
                     Provided with a Css task list, familarized w different CSS selectors, impoortance of specificty and inheritence
 8. UNderstanding Css: Blank TTT Board
                     Used CSS to create a blank Tic Tac Toe Board; useed nested nth-of-type
-9. d
+9. Photography Portfolio Code Along
+                    Only HTML + CSSl portfolio made from scrath; a code along assignment
 10. d
+11. g
+12. g
+13. g
+14. g
+15. g
+16. g
