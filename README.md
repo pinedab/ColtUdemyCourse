@@ -7,9 +7,9 @@ Up until this point I have familarized myself with HTML, CSS, Javascript, jquery
 
 Table of Contents:
 HTML (one file ea) 1-5
-HTML + CSS (two files ea)6-10
-Bootstrap + CSS
-BS/HTML + CSS + JS
+HTML + CSS (two files ea) 6-10
+Bootstrap + CSS (two files ea) 11-12
+BS/HTML + CSS + JS(three files ea) 13-
 
 
 1. Basic HTML tag use ===
@@ -26,20 +26,33 @@ BS/HTML + CSS + JS
                       Familarized with CSS + practice different selector types
 7. CSS Scavenger Hunt Excercise ===
                       Provided with a Css task list, familarized w different CSS selectors, impoortance of specificty and inheritence
-8. UNderstanding Css: Blank TTT Board ===
+8. Understanding Css: Blank TTT Board ===
                       Used CSS to create a blank Tic Tac Toe Board; useed nested nth-of-type
 9. Photography Portfolio Code Along ===
-                      Only HTML + CSS portfolio made from scrath; a code along assignment
+                      Only HTML + CSS portfolio made from scratch; a code along assignment
 10. Recreate Minimalist Blog ===
                       Intermediate HTML + CSS, on my own recreation w minor tweaks to personlize
 11. Understanding Bootstrap: Simple Image Gallery ===
                       Linked/use of BS, CSS + JS files, fontawesome icons, & unsplash.com images;use & customization of BS grid system, overriding CSS files, and navbar, thumbnail, and jumbotron
 12. Bootstrap Practice: Creating a Landing Page ===
+                      Practived, navbar, :after, text-shadow, overriding BS, and backgrd img
+13. Understanding Javascript Stalker Exercise ===
                       
-13. g ===
+14. JS Age Calculator ===
                       
-14. g ===
+15. JS Guessing Game ===
                       
-15. g ===
+16. JS WHile Loops ===
                       
-16. g
+17. JS For Loops ===
+                      
+18. ff
+19. ff
+20. f
+21. f
+22. f
+23. f
+24. f
+
+
+
