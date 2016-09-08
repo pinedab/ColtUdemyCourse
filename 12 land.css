@@ -1,0 +1,52 @@
+body{
+	background: url(https://hd.unsplash.com/photo-1415369629372-26f2fe60c467);
+	background-size: cover;
+	background-position: center;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+html{
+	height: 100%;
+}
+
+#content h3{
+	text-transform: capitalize;
+}
+
+#content, button {
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0 4px 3px  rgba(0,0,0,0.4),
+				 0 8px 13px rgba(0,0,0,0.1),
+				 0 18px 23px rgba(0,0,0,0.1);
+	/*x-offest, y offset, blur radius, color*/
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr{
+	width: 400px;
+	border-top: 1px double #f8f8f8;
+	border-bottom: 3px double rgba(0,0,0,0.2);
+}
+
+.btn{
+	color: #fff;
+	background: #9fc69f;
+}
+
+h1,
+.navbar-inverse .navbar-brand, 
+.navbar-inverse .navbar-nav>li>a{
+	color: #9fc69f;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+	background-color: #9fc69f;
+}
+
+
