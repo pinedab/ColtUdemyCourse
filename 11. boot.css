@@ -1,0 +1,34 @@
+.bll {
+	background: lightblue;
+	border: 2px solid lightslategray;
+}
+
+.orange {
+	background: orange;
+	border: 2px dashed lightslategray;
+	height:50px;
+}
+body{
+	padding-top: 70px;
+}
+
+.jumbotron{
+	color: #1b3c50;
+	background: #ecf0f1;
+}
+
+.navbar-inverse {
+	background: #1b3c50;
+}
+
+.navbar-inverse .navbar-nav>li>a, 
+.navbar-inverse .navbar-brand{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, 
+.navbar-inverse .navbar-brand:hover {
+	color: #deeded;
+	text-decoration: underline;
+}
+

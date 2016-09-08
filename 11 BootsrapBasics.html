@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap Basics: Simple Image Gallery</title>
+	<!-- <link rel="stylesheet" href="boostrap.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">">
+	<link rel="stylesheet" href="11. boot.css">
+</head>
+
+<body>
+	<!-- NAVBAR - copied from previous project-->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collpased" data-toggle="collapse" data-target="#bars" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar "></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture aria-hidden="true"" ></span> Eat Mah Highness</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bars">
+				<ul class="nav navbar-nav">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul class="navbar-nav nav navbar-right">
+					<li><a href=""><i class="fa fa-user-plus" aria-hidden="true"></i> Sign-up</a></li>
+					<li><a href=""><i class="fa fa-user fa-fw"></i> Log-in</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- JUMBOTRON -->
+	<div class="container">
+		<div class="jumbotron">
+			<h1><i class="fa fa-camera-retro" aria-hidden="true"></i></span> The Image Gallery</h1>
+			<p>A bunch of beautiful photographs that I didn't take</p>
+	</div>
+
+		<div class="row" style="display:flex; flex-wrap:wrap;">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://hd.unsplash.com/photo-1468818519844-64bc429824de" alt="dressed up girl in water decorated in floating blossoms">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://hd.unsplash.com/photo-1452127308952-47a699216fc5" alt="grayish swan">	
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://hd.unsplash.com/reserve/uvRBqDAfQfaGPJiI6lVS_R0001899.jpg" alt=" humans walking into a cove with a great beach, clear sky, blue water view">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://hd.unsplash.com/photo-1463062511209-f7aa591fa72f" alt="sitting girl overlooking a beach from a hill">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 ">
+				<div class="thumbnail">
+					<img alt="colorful sand dunes" src="https://hd.unsplash.com/photo-1469826834904-e92950ee5bf9">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img alt="bird" src="https://hd.unsplash.com/reserve/iZkDQMqeQlqhoCIywoFv_6005485056_c8622e0824_o.jpg">
+				</div>
+			</div>
+				<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://hd.unsplash.com/photo-1471201187657-6406da15e43b" alt="star filled sky in the desert">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://hd.unsplash.com/photo-1459445364195-16475050193c" alt="distant orange sunset over mountain range">
+				</div>
+			</div>
+		
+				<div class="col-lg-4 col-sm-6">
+					<div class="thumbnail">
+						<img src="https://hd.unsplash.com/photo-1440658172029-9d9e5cdc127c" alt="fox in the woods"> 
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+<!-- GRID -->
+
+<h1>Bootstrap Basics</h1>
+
+<div class="container">
+	<div class="row">
+		<div class="bll col-md-3 col-sm-6">ana</div>
+		<div class="bll col-md-3 col-sm-6">DATES 
+			<div class="row">
+				<div class="col-lg-6 bll orange">Left</div>
+				<div class="col-lg-6 bll orange">Right</div>
+			</div></div>
+			<div class="bll col-md-3 col-sm-6">TOUR</div>
+			<div class="bll col-md-3 col-sm-6">
+				<div class="row">
+					<div class="col-lg-2 col-md-2 orange">Jenny</div>
+					<div class="col-lg-2 col-md-2 orange">Jenny</div>
+					<div class="col-lg-2 col-md-2 orange">Jenny</div>
+					<div class="col-lg-2 col-md-2 orange">Jenny</div>
+					<div class="col-lg-2 col-md-2 orange">Jenny</div>
+					<div class="col-lg-2 col-md-2 orange">Jenny</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-md-4 bll col-sm-2">COL LG 4</div>
+		<div class="col-md-4 bll col-sm-2">COL LG 4</div>
+		<div class="col-md-4 bll col-sm-2">COL LG 4</div>
+		<div class="col-md-4 bll col-sm-2">COL LG 4</div>
+	</div>
+</div>
+
+<script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
