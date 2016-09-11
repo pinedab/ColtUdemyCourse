@@ -8,8 +8,10 @@ Up until this point I have familarized myself with HTML, CSS, Javascript, jquery
 Table of Contents:
 HTML (one file ea) 1-5
 HTML + CSS (two files ea) 6-10
-Bootstrap + CSS (two files ea) 11-12
-BS/HTML + CSS + JS(three files ea) 13-
+Bootstrap/HTML + CSS (two files ea) 11-12
+HTML + JS(two files ea) 13 - 14
+JS(one file ea) 15
+HTML + JS(two files ea) 16-18
 
 
 1. Basic HTML tag use ===
@@ -37,17 +39,19 @@ BS/HTML + CSS + JS(three files ea) 13-
 12. Bootstrap Practice: Creating a Landing Page ===
                       Practived, navbar, :after, text-shadow, overriding BS, and backgrd img
 13. Understanding Javascript Stalker Exercise ===
-                      
+                      Learned logic/comparison operatorsUse; Uses alert, prompt, console.log methods
 14. JS Age Calculator ===
-                      
-15. JS Guessing Game ===
-                      
-16. JS WHile Loops ===
-                      
-17. JS For Loops ===
-                      
-18. ff
-19. ff
+                      Calculates how many days your age is roughly - uses operators and prompt/alert
+15. JS Conditional Exercises
+                      Learned if/else if/else, operatators, and DRY
+16. JS Guessing Game ===
+                      Applied if/else if/else statment and variables
+17. JS WHile Loops Problem Set ===
+                      Created while loops with varying conditions; high use of modulo(%)
+18. JS Annoy-O-matic Code Along ===
+                      Repeatedly asks "Are we there yet", until certain condition is met; use of .indexOf()
+19. JS For Loops Problem Set ===
+                      Created while loops with varying conditions; 
 20. f
 21. f
 22. f
