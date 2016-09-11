@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS Stalker Exercise</title>
+	<script src="13 script.js"></script>
+</head>
+<body>
+	<h1>Stalker Exercise</h1>
+	<h3>Every time you refresh the page, it'll ask you for information</h3>
+	<h3>Check the right click>inspect>console for info.</h3>
+</body>
+</html>
