@@ -1,4 +1,4 @@
-var numSquares = 9;
+var numSquares = 6;
 var colors = generateRandomColors(numSquares);
 var squares = document.querySelectorAll(".square");
 var correctColor = pickColor();
@@ -7,12 +7,12 @@ var msgDisplay = document.querySelector("#msg");
 var h1 = document.querySelector("h1");
 var resetBtn = document.getElementById("new");
 var easyBtn = document.getElementById("easy");
-var medBtn = document.getElementById("medium");
+//var medBtn = document.getElementById("medium");
 var hardBtn = document.getElementById("hard");
 
 easyBtn.addEventListener("click", function(){
 	this.classList.add("selected");
-	medBtn.classList.remove("selected");
+//	medBtn.classList.remove("selected");
 	numSquares = 3;
 	hardBtn.classList.remove("selected");
 	colors = generateRandomColors(numSquares);
@@ -29,31 +29,31 @@ easyBtn.addEventListener("click", function(){
 	}
 })
 
-medBtn.addEventListener("click", function(){
-	easyBtn.classList.remove("selected");
-	this.classList.add("selected");
-	hardBtn.classList.remove("selected");
-	numSquares = 6;
-	colors = generateRandomColors(numSquares);
-	correctColor = pickColor();
-	colorDisplay.textContent = correctColor;
+// medBtn.addEventListener("click", function(){
+	// easyBtn.classList.remove("selected");
+//	this.classList.add("selected");
+//	hardBtn.classList.remove("selected");
+//	numSquares = 6;
+//	colors = generateRandomColors(numSquares);
+//	correctColor = pickColor();
+//	colorDisplay.textContent = correctColor;
 	//HIDE THE REMAINING SQUARES
-	for (var i = 0; i < squares.length; i++) {
-		if (colors[i]) {
-			squares[i].style.background = colors[i];
-			squares[i].style.display = "block";
-		}
-		else {
-			squares[i].style.display = "none";
-		}
-	}
- })
+//	for (var i = 0; i < squares.length; i++) {
+//		if (colors[i]) {
+//			squares[i].style.background = colors[i];
+//			squares[i].style.display = "block";
+//		}
+//		else {
+//			squares[i].style.display = "none";
+//		}
+//	}
+// })
 
 hardBtn.addEventListener("click", function(){
 	easyBtn.classList.remove("selected");
-	medBtn.classList.remove("selected");
+//	medBtn.classList.remove("selected");
 	this.classList.add("selected");
-	numSquares = 9;
+	numSquares = 6;
 	colors = generateRandomColors(numSquares);
 	correctColor = pickColor();
 	colorDisplay.textContent = correctColor;
