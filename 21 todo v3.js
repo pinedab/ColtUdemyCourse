@@ -39,4 +39,26 @@ function deleteTodo() {
 	todos.splice(index, 1);
 	console.log("Deleted Todo");}
 
+//////////////////////////////////////////////
+//CODE FOR VERSION B
+//////////////////////////////////////////////
 
+var lis = document.querySelectorAll("h4 ol li");
+
+	for(var i = 0; i < lis.length; i++){
+		lis[i].addEventListener("mouseover", function(){
+		//Best practice
+			this.classList.add("selected");
+		//ALTERNATIVE Method
+		//		this.style.color = "green";
+		});
+		lis[i].addEventListener("mouseout", function(){
+		//BEST PRACTICE
+			this.classList.remove("selected");
+		//ALTERNATIVE Method
+		//		this.style.color = "black";
+		});	
+		lis[i].addEventListener("click", function(){
+			this.classList.toggle("done");
+		});
+	}
