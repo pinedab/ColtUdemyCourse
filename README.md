@@ -54,16 +54,28 @@ HTML + JS(two files ea) 16-18
                       Created while loops with varying conditions; 
 20. Functions Problem Set ===
                       Created functions; applied AND, OR, NOT operators, typeof, for loop, return ke, replace method
-17. JS WHile Loops Problem Set ===
-                      Created while loops with varying conditions; high use of modulo(%)
-18. JS Annoy-O-matic Code Along ===
-                      Repeatedly asks "Are we there yet", until certain condition is met; use of .indexOf()
-19. JS For Loops Problem Set ===
-                      Created while loops with varying conditions; 
-21. f
-22. f
-23. f
-24. f
-
-
+21. Todo List  ===
+                      Variety of versions - starts with console log; working to a full functioning app
+22. Array Problem Set ===
+                      Practice iterations through arrays to give different results
+23. Array, Function, Object Exercise ===
+                       Created a movie database in the console; using array, function, object exercise
+24. DOM Selector Exercise ===
+                      Practice using querySelectorr and other ways to gain access to elements via the DOM
+25. Color Toggle Exercise ===
+                      Practiced advanced DOM manipulation using plain JS - changed the background colors of a split screen
+26. Score Keeper Code Along ===
+                      Using DOM manipulation to add functionality to a plain score keeping app, adjust rounds, determine winner, etc.
+27. Guess the Color Game Code Along ===
+                      A fully functional multi-difficulty mode game, w appealing frontend work 
+28. Guess the Color Game Code Along - Customized and Refacorted Version ===
+                      Same functionality and appearance, but w/ cleaner, optimized code
+29. ===
+                      
+30.  ===
+                      
+31.  ===
+                      
+32.  ===
+                      
 
