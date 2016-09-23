@@ -52,7 +52,14 @@ HTML + JS(two files ea) 16-18
                       Repeatedly asks "Are we there yet", until certain condition is met; use of .indexOf()
 19. JS For Loops Problem Set ===
                       Created while loops with varying conditions; 
-20. f
+20. Functions Problem Set ===
+                      Created functions; applied AND, OR, NOT operators, typeof, for loop, return ke, replace method
+17. JS WHile Loops Problem Set ===
+                      Created while loops with varying conditions; high use of modulo(%)
+18. JS Annoy-O-matic Code Along ===
+                      Repeatedly asks "Are we there yet", until certain condition is met; use of .indexOf()
+19. JS For Loops Problem Set ===
+                      Created while loops with varying conditions; 
 21. f
 22. f
 23. f
